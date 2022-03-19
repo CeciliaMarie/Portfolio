@@ -9,74 +9,48 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;0,900;1,400&display=swap" rel="stylesheet">
-    <style>
-      .grid {
-        width: 100%;
-        display: grid;
-        grid-template-columns: 50px 1fr 2fr 50px;
-        grid-template-areas:
-          'header header header header'
-          'left-gutter links article right-gutter'
-          'footer footer footer footer';
-      }
-
-      header {
-        grid-area: header;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: baseline; 
-        padding: 0 var(--spacing);
-      }
-
-      footer {
-        grid-area: footer;
-      }
-
-      main {
-        grid-area: article;
-      }
-
-      aside {
-        grid-area: links;
-        align-self: start;
-        justify-self: center;
-      }
-    </style>
   </head>
   <body class="grid">
-    <!-- <header>
-      <h1> Good Ideas </h1>
-      <h2> A collection of blogs from around the web. </h2>
-    </header> -->
     <aside>
+      <div class="spacer"></div>
+      <h2> Contact Me </h2>
+      <ul>
+      <li>
+        abrahamsson@chapman.edu
+      </li>
+      <li>
+        <a href = "https://www.linkedin.com/in/cecilia-marie-abrahamsson-333b8a1bb/">
+          LinkedIn</a>
+      </li>
+      </ul>
       <h2> Projects </h2>
       <ol>
-        <a href="">
-          <li></li>
+        <li> Created a website detailing
+        <a href="https://howtomakeareadmegenerator.netlify.app/">
+          how to make a README 
+          and how to use a README generator
         </a>
-        <a href="">
-          <li>  </li>
+        </li>
+        <li> Contributing to a
+        <a href="https://github.com/DriveQuestApp">
+          driving test app
         </a>
-        <a href="">
-          <li>  </li>
-        </a>
-        <a href="">
-          <li></li>
-        </a>
-        <a href="">
-          <li></li>
-        </a>
+        for DriveQuest
+        </li>
+          <li> Designed and 3D printed a puzzle </br>
+            <div class="spacer"></div>
+            <img src = "IMG_4164.jpg"/>
+          </li>
       </ol>
     </aside>
     <main>
       <div class="spacer"></div>
-      <h1 class="title">Protfolio</h1>
+      <h1 class="title">Portfolio</h1>
       <h2 class="author">by Cecilia Marie Abrhamsson</a></h2>
       <div class="spacer"></div>
       <div class="spacer"></div>
 
-      <p class="date">About me</p>
+      <p class="about">About Me:</p>
 
       <p>
         Cecilia Marie Abrahamsson is a Junior Software 
@@ -92,8 +66,5 @@
         team-working skills.
       </p>
     </main>
-    <!-- <footer>
-      This site is not copyrighted. Take what you want and run with it!
-    </footer> -->
   </body>
 </html>
